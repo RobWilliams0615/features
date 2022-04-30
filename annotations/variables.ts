@@ -1,11 +1,16 @@
-let  apples: number = 9;
+//type annotation examples below
+
+
+
+// directly bewlow is example of Type infeence
+let apples = 9;
 
 apples = 7
 
-let speed: string = 'yellow'
+let speed = 'yellow'
 
-let hasName: boolean = true
-let nothingMuch: null = null
+let hasName = true
+let nothingMuch:null = null
 let nothing: undefined = undefined
 
 //built in objects
@@ -28,4 +33,17 @@ let point: { x: number; y: number} = {
   x: 10,
   y: 20
 }
+// array
 
+let colorsArray: string[] = ['red', 'green', 'blue']
+
+let newNumbers: number[] = [1,2,3]
+
+let truths: boolean[] = [true,true,false]
+
+// function
+
+const logNumber: (i: number) => void = (i: number) => {
+  console.log(i)
+}
+ 
